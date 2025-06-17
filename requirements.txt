@@ -1,0 +1,21 @@
+# Flask and related packages
+flask==2.0.3         # Web framework
+werkzeug==2.0.3      # Flask dependency
+jinja2==3.0.3        # Template engine
+markupsafe==2.0      # Required for Jinja2
+itsdangerous==2.0.1  # For signed cookies
+
+# Data processing
+pandas==1.1.5        # For data analysis and manipulation
+numpy==1.19.5        # Required by pandas
+matplotlib==3.3.4    # For plot generation
+seaborn==0.11.1      # Enhanced visualizations
+
+# HTTP and networking
+requests==2.27.0     # For HTTP requests
+urllib3==1.26.8      # Required by requests
+
+# Utilities
+python-dateutil==2.8.2  # For date handling
+pytz==2021.3           # Timezone support for pandas
+six==1.16.0            # Python 2 and 3 compatibility 
